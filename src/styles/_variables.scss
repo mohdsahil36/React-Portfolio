@@ -1,0 +1,74 @@
+@mixin span-values {
+    width: 6.25rem;
+    height: 6.25rem;
+    background-color: #262626;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+@mixin icon {
+    font-size: 2.125rem;
+    color: #ffb400;
+}
+
+@mixin skills-values {
+    text-align: center;
+    color: white;
+    margin-top: 1.5rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+
+    @media (max-width:765px) {
+        text-align: center;
+    }
+}
+
+@mixin headings {
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 700;
+    padding: 0;
+
+    @media (min-width:766px) {
+        writing-mode: vertical-rl;
+        transform: scale(-1, -1);
+    }
+}
+
+@mixin boxes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 3.75rem 0 1.875rem 0;
+    border-radius: 20px;
+    position: relative;
+    min-width: 21.875rem;
+    min-height: 10.25rem;
+    background-color: #222;
+}
+
+@mixin contact-icon{
+    border-radius: 50%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -2.313rem;
+    width: 4.625rem;
+    height: 4.625rem;
+    color: #ffb400;
+    background: #222;
+}
+
+@mixin small-text{
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+    text-transform: capitalize;
+    margin-bottom: 0.313rem;
+    font-size: 1.125rem;
+}
