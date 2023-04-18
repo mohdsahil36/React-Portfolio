@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import './App.scss'
+import './App.scss';
+import ScrollToTop from "react-scroll-to-top";
 import Navbar from './components/navbar';
 import HomePage from './components/HomePage'
 import AboutMe from './components/AboutMe';
@@ -17,6 +18,7 @@ function App() {
         <HomePage/>
       </div>
       <div className='other-sections p-0 pt-5'>
+        <ScrollToTop smooth className='scroll-top-button'/>
         <AboutMe/>
         <MySkills/>
         <EducationAndExperience/>

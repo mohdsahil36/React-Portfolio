@@ -14,14 +14,14 @@ function myskills(){
                                 <motion.span
                                     initial={{ rotate: 0 }}
                                     whileHover={{ rotate: -30 }}
-                                ><motion.i class="devicon-html5-plain" whileHover={{ rotate: 30 }}></motion.i></motion.span>
+                                ><motion.i className="devicon-html5-plain" whileHover={{ rotate: 30 }}></motion.i></motion.span>
                                 <h4>HTML</h4>
                             </div>
                             <div>
                                 <motion.span
                                     initial={{ rotate: 0 }}
                                     whileHover={{ rotate: -30 }}
-                                ><motion.i class="devicon-css3-plain" whileHover={{ rotate: 30 }}></motion.i></motion.span>
+                                ><motion.i className="devicon-css3-plain" whileHover={{ rotate: 30 }}></motion.i></motion.span>
                                 <h4>CSS</h4>
                             </div>
                         </div>
@@ -30,14 +30,14 @@ function myskills(){
                                 <motion.span
                                     initial={{ rotate: 0 }}
                                     whileHover={{ rotate: -30 }}
-                                ><motion.i class="devicon-sass-original" whileHover={{ rotate: 30 }}></motion.i></motion.span>
+                                ><motion.i className="devicon-sass-original" whileHover={{ rotate: 30 }}></motion.i></motion.span>
                                 <h4>SASS</h4>
                             </div>
                             <div>
                                 <motion.span
                                     initial={{ rotate: 0 }}
                                     whileHover={{ rotate: -30 }}
-                                ><motion.i class="devicon-bootstrap-plain" whileHover={{ rotate: 30 }}></motion.i></motion.span>
+                                ><motion.i className="devicon-bootstrap-plain" whileHover={{ rotate: 30 }}></motion.i></motion.span>
                                 <h4>Bootstrap</h4>
                             </div>
                         </div>
@@ -46,14 +46,14 @@ function myskills(){
                                 <motion.span
                                     initial={{ rotate: 0 }}
                                     whileHover={{ rotate: -30 }}
-                                ><motion.i class="devicon-javascript-plain" whileHover={{ rotate: 30 }}></motion.i></motion.span>
+                                ><motion.i className="devicon-javascript-plain" whileHover={{ rotate: 30 }}></motion.i></motion.span>
                                 <h4>Javascript</h4>
                             </div>
                             <div>
                                 <motion.span
                                     initial={{ rotate: 0 }}
                                     whileHover={{ rotate: -30 }}
-                                ><motion.i class="devicon-jquery-plain" whileHover={{ rotate: 30 }}></motion.i></motion.span>
+                                ><motion.i className="devicon-jquery-plain" whileHover={{ rotate: 30 }}></motion.i></motion.span>
                                 <h4>jQuery</h4>
                             </div>
                         </div>
@@ -62,14 +62,14 @@ function myskills(){
                                 <motion.span
                                     initial={{ rotate: 0 }}
                                     whileHover={{ rotate: -30 }}
-                                ><motion.i class="devicon-react-original" whileHover={{ rotate: 30 }}></motion.i></motion.span>
+                                ><motion.i className="devicon-react-original" whileHover={{ rotate: 30 }}></motion.i></motion.span>
                                 <h4>React</h4>
                             </div>
                             <div>
                                 <motion.span
                                     initial={{ rotate: 0 }}
                                     whileHover={{ rotate: -30 }}
-                                ><motion.i class="devicon-nextjs-original" whileHover={{ rotate: 30 }}></motion.i></motion.span>
+                                ><motion.i className="devicon-nextjs-original" whileHover={{ rotate: 30 }}></motion.i></motion.span>
                                 <h4>NextJS</h4>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ function myskills(){
                                 <motion.span
                                     initial={{ rotate: 0 }}
                                     whileHover={{ rotate: -30 }}
-                                ><motion.i class="devicon-github-original" whileHover={{ rotate: 30 }}></motion.i></motion.span>
+                                ><motion.i className="devicon-github-original" whileHover={{ rotate: 30 }}></motion.i></motion.span>
                                 <h4>Git</h4>
                             </div>
                         </div>

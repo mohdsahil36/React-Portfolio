@@ -2,14 +2,14 @@ import React from 'react';
 
 function navbar(){
     return(
-        <div className='container-fluid navigationbar'>
-            <nav class="navbar sticky-top navbar-expand-lg p-0 navigation">
-                <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <div className='container-fluid navigationbar p-0'>
+            <nav className="navbar sticky-top navbar-expand-lg p-0 navigation">
+                <button className="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ps-3 pt-3">
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav ps-3 pt-3">
                         <li className='nav-item'>
                             <a href="#home" className='nav-link'>Home</a>
                         </li>
