@@ -1,6 +1,13 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application was built using React framework including basic libraries also including new libraries such as Framer-Motion and React-scroll-to-top.
+Below are some shots from the application:
+![HomePage](https://user-images.githubusercontent.com/64886186/232693650-2732a200-09ab-4b8c-aaf2-25d1991117f4.PNG)
+![skills](https://user-images.githubusercontent.com/64886186/232693692-1617b96c-4300-496b-ba47-9ba818a98a3b.PNG)
+![experience](https://user-images.githubusercontent.com/64886186/232693725-577f9762-fffe-46bb-b21e-703af9d8f752.PNG)
+![certifications](https://user-images.githubusercontent.com/64886186/232693738-e0866756-e69e-46c0-8794-e1672db5c250.PNG)
+
 
 ## Available Scripts
 
